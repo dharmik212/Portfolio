@@ -398,6 +398,13 @@ body {
     align-items: center;
 }
 
+.timeline-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; /* Optional: spacing between date and content */
+}
+
+
 .timeline-item:nth-child(odd) .timeline-content {
     grid-column: 1;
 }
