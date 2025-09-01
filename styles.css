@@ -401,7 +401,7 @@ body {
 .timeline-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem; 
+    gap: 1rem;
 }
 
 
@@ -850,6 +850,5 @@ html {
     animation: fadeInUp 0.8s ease 0.2s forwards;
     opacity: 0;
 }
-
 
 
