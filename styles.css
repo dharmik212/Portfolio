@@ -399,12 +399,6 @@ body {
     align-items: center;
 }
 
-.timeline-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
-
 .timeline-item:nth-child(odd) .timeline-content {
     grid-column: 1;
 }
@@ -427,6 +421,7 @@ body {
     color: var(--primary-color);
     font-weight: 600;
     font-size: 1rem;
+    align-self: center; 
 }
 
 .timeline-content {
@@ -435,6 +430,9 @@ body {
     border-radius: 12px;
     box-shadow: var(--shadow);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .timeline-content h3 {
